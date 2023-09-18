@@ -228,25 +228,25 @@ paths:
     post:
       parameters:
         - in: path
-          name: teamId
+          name: team-id
           schema:
             type: integer
           required: true
           description: Team ID to create.
         - in: path
-          name: teamName
+          name: team-name
           schema:
             type: string
           required: true
           description: Team name.
         - in: path
-          name: teamSize
+          name: team-size
           schema:
             type: integer
           required: true
           description: Team size.
         - in: path
-          name: startCaveId
+          name: start-cave-id
           schema:
             type: integer
           required: true
@@ -265,13 +265,13 @@ paths:
     post:
       parameters:
         - in: path
-          name: teamId
+          name: team-id
           schema:
             type: integer
           required: true
           description: Team ID to send.
         - in: path
-          name: caveId
+          name: cave-id
           schema:
             type: integer
           required: true
